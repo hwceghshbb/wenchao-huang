@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 280" role="img" aria-labelledby="title desc">
+  <title id="title">Autonomous driving research illustration</title>
+  <desc id="desc">A minimal top-down road scene with a vehicle, perception rays, and a planned trajectory.</desc>
+  <defs>
+    <linearGradient id="road" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#2f6480"/><stop offset="1" stop-color="#173f53"/></linearGradient>
+  </defs>
+  <rect width="640" height="280" fill="#eef1ed"/>
+  <path d="M175 0L265 0L425 280H215z" fill="url(#road)"/>
+  <path d="M265 0L425 280M175 0L215 280" fill="none" stroke="#d7e4df" stroke-width="3" opacity=".8"/>
+  <path d="M286 28l9 30M306 89l14 43M337 164l18 53" stroke="#f3d49d" stroke-width="7" stroke-linecap="round" stroke-dasharray="20 25"/>
+  <path d="M308 242C298 208 303 171 332 137C362 102 404 78 480 60" fill="none" stroke="#e8a94c" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 12"/>
+  <g transform="translate(284 176)">
+    <rect x="0" y="0" width="58" height="94" rx="18" fill="#f7f6ef" stroke="#173f53" stroke-width="4"/>
+    <path d="M9 31h40l-7-18H16z" fill="#85a9b0" stroke="#173f53" stroke-width="3"/>
+    <circle cx="12" cy="77" r="7" fill="#e8a94c"/><circle cx="46" cy="77" r="7" fill="#e8a94c"/>
+  </g>
+  <g transform="translate(35 38)">
+    <rect width="175" height="74" rx="12" fill="#fffefa" stroke="#c3d3ce"/>
+    <circle cx="29" cy="37" r="16" fill="#e8a94c"/>
+    <path d="M21 39c7-15 12-15 17 0" fill="none" stroke="#173f53" stroke-width="3"/>
+    <text x="58" y="33" fill="#173f53" font-family="Arial, sans-serif" font-size="14" font-weight="700">VISION + VLM</text>
+    <text x="58" y="53" fill="#6d7b80" font-family="Arial, sans-serif" font-size="11">scene → decision</text>
+  </g>
+  <path d="M210 74h57" stroke="#77a0a1" stroke-width="2" stroke-dasharray="6 7"/>
+  <g fill="#173f53" font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="2">
+    <text x="34" y="245">PERCEPTION</text><text x="458" y="245">TRAJECTORY</text>
+  </g>
+</svg>
